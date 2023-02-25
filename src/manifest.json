@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Live Soccer Scores",
+  "description": "View live soccer scores and schedules",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon-on-16.png",
+    "32": "images/icon-on-32.png",
+    "48": "images/icon-on-48.png",
+    "128": "images/icon-on-128.png"
+  },
+  "permissions": [
+    "storage",
+    "https://api.scorebat.com/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Live Soccer Scores"
+  }
+}
